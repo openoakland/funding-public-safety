@@ -1,66 +1,55 @@
-# Funding Public Safety
-Helping Oaklanders understand the real impacts of public safety funding.
+## Welcome to Funding Public Safety
 
-Funding Public Safety is a project of [OpenOakland](https://openoakland.org). OpenOakland is a volunteer collective that bridges community and technology for a thriving and equitable Oakland. We're a brigade of the nonprofit Code for America.
+Funding Public Safety explores how Oakland spends Measure Z’s approximately $24 million annual budget, so Oaklanders can better understand the City’s approach to public safety and violence prevention. We're a project of [OpenOakland](https://openoakland.org), a volunteer collective that bridges community and technology for a thriving and equitable Oakland.
 
-### Project context
+### Technology used
 
-The City of Oakland allocates about $24 million each year to the Dept. of Violence Prevention, Oakland Police Dept. and the Oakland Fire Dept. to fund public safety and violence prevention programs. This pool of money is overseen by an oversight commission (the SSOC), a volunteer group of city residents appointed by the City. OpenOakland’s Funding Public Safety project is aimed at supporting the SSOC’s oversight efforts by making the City’s Measure Z evaluation reports more meaningful so the SSOC, impacted communities, and the general public can better understand how the money is being spent and how effective these programs are. We’re looking for folks to assess the community impacts of this project, analyze program data, and develop a dataviz strategy.
+- [Eleventy (11ty)](https://www.11ty.dev/) static site generator
+- [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) templating (but 11ty accepts multiple templating languages if you prefer your own comfort zone)
+- [Bootstrap 5.1](https://getbootstrap.com/docs/5.1) css styles
 
-### [Placeholder] Technology used
+### Contributing
 
-- Each platform or framework should get its own bullet.
-- Each platform should include an [active link](#) to the official documentation.
+All contributors are expected to adhere to OpenOakland's [Code of Conduct](https://openoakland.org/code-of-conduct/). This emphasizes a collaborative, participatory approach to project development. We're here to support each other as a community and we take this CoC seriously. We appreciate your understanding and shared commitment.
 
-# [Placeholder] How to contribute
+#### Getting started
 
-Explain the different ways people can contribute. For example:
+These instructions assume you have a beginner-level familiarity with GitHub and the command line.
 
-- Join the team {on Slack/at our weekly hack night/etc}.
-- To help with user research, {do ABC}.
-- To provide design support, {do XYZ}.
-- To contribute to the code, follow the instructions below.
+On your local system:
 
-Remember to provide direct links to each channel.
+1. Clone repo.
 
-## [Placeholder] Installation instructions
+In Terminal or other command line interface:
 
-1. Step-by-step instructions help new contributors get a development environment up and running quickly.
-2. You'll want to find the balance between being specific enough for novices to follow, without being so specific that you reinvent the wheel by providing overly-basic instructions that can be found elsewhere.
-3. Feel free to adapt this section and its sub-sections to your own processes.
-4. Alternatively, you can move everything from *Installation instructions* through *Testing* to a separate **Contributing.md** file to keep your **ReadMe.md** more succinct.
+2. Navigate to local directory: `cd {file-path}``
+3. Install necessary packages: `npm install`
+4. Run server: `npm run serve`
 
+In your web browser:
 
-### [Placeholder] Working with issues
+5. Visit `localhost:8080` to view the site locally. You're now up and running!
 
-- Explain how to submit a bug.
-- Explain how to submit a feature request.
-- Explain how to contribute to an existing issue.
+#### Working on the site
 
-If you want your issues submitted in a particular format, explain how (or create [issue templates](https://help.github.com/en/articles/creating-issue-templates-for-your-repository)).
+- Always remember to pull the latest version from main branch before beginning to work: git pull origin main.
+- Before editing any files, create a new branch named with a clear summary of the changes being implemented (e.g. `update-about-content` or `feature-polling`).
+- Design/build changes should be made within the `/src` directory. Site-wide configuration changes should be made with caution in `package.jso`n and `eleventy.config` files.
+- When your changes are ready for review, open a pull request in GitHub and request a review from anyone on the team. Please give us about 48 hours to follow up.
 
+#### Site structure and styles
 
-### [Placeholder] Working with forks and branches
-
-- Explain your guidelines here.
-
-
-### [Placeholder] Working with pull requests and reviews
-
-- Explain your process.
+- Site pages are built in markdown using Nunjucks templating (but Eleventy accepts lots of templating languages so if you have a preference you may use what you're comfortable with).
+- All pages must include specific front matter:
+  - `layout`: which layout template to use from `_includes` (usually `page.njk`)
+  - `title`: page title, which will show up as an `<h1>` header
+  - `key`: Label to use in global nav (if you want the page to appear here)
+  - `order`: Position of the page in the global nav menu
+- Our default styling uses [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/). Customizations can be added to `/src/css/style.css`.
 
 
-### [Placeholder] Testing
+### Contact
 
-- Provide instructions.
-
-
-# Contact info
-
-- Email the team: [fundingpublicsafety@openoakland.org](mailto:fundingpublicsafety@openoakland.org)
-- [Follow along or get involved](bit.ly/fps-interest)
-- Join us at an [upcoming working session or brigade meetup](https://openoakland.org/calendar)
-
-### Licensing
-
-TBD. Currently all rights reserved.
+- The FPS team can be reached at [fundingpublicsafety@openoakland.org](mailto:fundingpublicsafety@openoakland.org).
+- OpenOakland leadership can be reached at [steering@openoakland.org](mailto:steering@openoakland.org).
+- Everyone is welcome to join our [weekly meetups](hhttps://www.meetup.com/openOakland/events).
