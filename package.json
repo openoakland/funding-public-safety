@@ -1,0 +1,34 @@
+{
+  "name": "funding-public-safety",
+  "version": "1.0.0",
+  "description": "Helping Oaklanders understand the impacts of public safety funding. A project of OpenOakland.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openoakland/funding-public-safety.git"
+  },
+  "keywords": [
+    "public safety",
+    "violence prevention",
+    "policing",
+    "open source",
+    "civic tech",
+    "oakland"
+  ],
+  "author": "OpenOakland",
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/openoakland/funding-public-safety/issues"
+  },
+  "homepage": "https://github.com/openoakland/funding-public-safety#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "eleventy-navigation-bootstrap": "^0.1.2"
+  }
+}
