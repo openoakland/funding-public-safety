@@ -1,0 +1,123 @@
+/* GLOBAL STYLES */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 3rem;
+}
+
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2, h3, h4 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom:.6rem;
+}
+
+/* CUSTOM TYPE STYLES */
+
+ul li.navbar {
+  margin-bottom:none;
+  padding:none;
+}
+
+.caption {
+  font-size: .8rem;
+  font-weight:lighter;
+}
+
+/* STRUCTURE */
+
+.main-page {
+  margin-top: 3rem;
+}
+
+.spacer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+/* HEADER STYLES */
+
+.site-header {
+  background-color: #D8F1A0;
+  min-height: 4rem;
+}
+
+.header-logo {
+  width: 240px;
+  margin-right: 80px;
+  @media (max-width: $mobile-up) {
+    width: 200px;
+  }
+}
+
+.nav-items {
+  margin-bottom: 0rem;
+  padding-top: .8rem;
+}
+
+/* FOOTER STYLES */
+
+.site-footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  background-color: #D8F1A0;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+/* HOME-PAGE HERO SECTION STYLES */
+
+.index-hero {
+  background-image: url("/assets/images/FPS-background.png"); /* The image used */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: #fff;
+  padding: 6rem 2rem 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+h1.hero {
+  margin-bottom: 0px;
+}
+
+p.hero {
+  font-size: 1.6rem;
+}
+
+/* BOOTSTRAP STYLE ADJUSTMENTS */
+
+.alert {
+  margin-top: 2rem;
+  margin-bottom:2rem;
+}
+
+
+
+/* ADD ADDITIONAL STYLES IN THEIR APPROPRIATE SECTION ABOVE OR IN A NEW SECTION BELOW */
