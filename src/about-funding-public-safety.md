@@ -23,12 +23,14 @@ Our next phase focuses on the following steps:
 ## Contributors
 We’re grateful to the following contributors and consultants who have informed our work to date, including:
 
+- Felicia Betancourt
 - Julie Edwards
 - Sarah Frei
 - Erin Hancock
 - Paula Hawthorne
 - Beth Hodess
 - Matthew Kury
+- Sean Martinez
 - Jess Sand
 - Sydney Thomas
 
