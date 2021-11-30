@@ -14,6 +14,10 @@ All contributors are expected to adhere to OpenOakland's [Code of Conduct](https
 
 ### Getting started
 
+```
+#### NOTE: This section is not up-to-date!
+```
+
 These instructions assume you have a beginner-level familiarity with GitHub and the command line.
 
 On your local system:
