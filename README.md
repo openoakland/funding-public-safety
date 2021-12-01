@@ -26,13 +26,16 @@ On your local system:
 
 In Terminal or other command line interface:
 
-2. Navigate to local directory: `cd {file-path}`
+2. Navigate to local directory: `cd ~/{file-path}`
 3. Install necessary packages: `npm install`
-4. Run server: `npm run serve`
+4. Build the site: `npm run-script build`
+5. Run the server: `npm run-script start`
 
 In your web browser:
 
-5. Visit `localhost:8080` to view the site locally. You're now up and running!
+5. Visit `localhost:8080` to view the site locally. You should now be up and running!
+
+_Running into issues? Reach out in the #project-active-funding-public-safety Slack channel (see [instructions for joining Slack](https://docs.google.com/document/d/1VWZQ_3ehP5j0IOTY0nJClvQPll3ivSkuAdh5YsOhO_U/edit)).
 
 ### Working on the site
 
