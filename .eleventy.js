@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // - Append URL with GitHubPages prefix -
+  // - Append URL with GitHub Pages prefix -
   pathPrefix: "/funding-public-safety/"
 
 };
