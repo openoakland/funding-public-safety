@@ -1,6 +1,8 @@
 // - Add eleventy nav plugin -
 // const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/my-custom-project/' : '/'
+
 module.exports = function (eleventyConfig) {
 
   //  Add 11ty nav plugin cont.
@@ -16,13 +18,14 @@ module.exports = function (eleventyConfig) {
 
   // - input/output customization -
   return {
+    pathPrefix: basePath,
     dir: {
       input: "src",
       output: "docs"
     },
 
     // - Append URL with GitHub Pages prefix -
-    pathPrefix: "/funding-public-safety/"
+  //  pathPrefix: "/funding-public-safety/"
   };
 
 
