@@ -1,4 +1,10 @@
+// - Add eleventy nav plugin -
+// const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
 module.exports = function (eleventyConfig) {
+
+  //  Add 11ty nav plugin cont.
+  //eleventyConfig.addPlugin(pluginNavigation);
 
   // - define css -
   eleventyConfig.addPassthroughCopy("./src/css/");
@@ -6,9 +12,7 @@ module.exports = function (eleventyConfig) {
 
   // - define assets -
   eleventyConfig.addPassthroughCopy("assets");
-
-  // Copy `img/` to `_site/img`
-  eleventyConfig.addPassthroughCopy("./src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/assets/images");
 
   // - input/output customization -
   return {
@@ -20,10 +24,6 @@ module.exports = function (eleventyConfig) {
     // - Append URL with GitHub Pages prefix -
     pathPrefix: "/funding-public-safety/"
   };
-
-  // - Add eleventy nav plugin -
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 
 };
