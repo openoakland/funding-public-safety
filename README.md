@@ -14,9 +14,8 @@ All contributors are expected to adhere to OpenOakland's [Code of Conduct](https
 
 ### Getting started
 
-```
-*** NOTE: This section has not been tested. If you try this procedure, please open a PR to update the ReadMe to either remove this warning (if it works), or update these instructions to reflect the accurate procedure. Thank you!
-```
+`*** NOTE: This section has not been tested. If you try this procedure, please open a PR to update the ReadMe to either remove this warning (if it works), or update these instructions to reflect the accurate procedure. Thank you!
+`
 
 These instructions assume you have a beginner-level familiarity with GitHub and the command line.
 
