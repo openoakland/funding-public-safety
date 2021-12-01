@@ -16,13 +16,14 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "docs"
     },
+
+    // - Append URL with GitHub Pages prefix -
+    pathPrefix: "/funding-public-safety/"
   };
 
   // - Add eleventy nav plugin -
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // - Append URL with GitHub Pages prefix -
-  pathPrefix: "/funding-public-safety/"
 
 };
