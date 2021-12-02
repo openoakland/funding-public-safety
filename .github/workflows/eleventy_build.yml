@@ -4,7 +4,7 @@ name: Eleventy Build
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -20,9 +20,7 @@ jobs:
 
 
         - run: npm ci
-
-
-        - run: npm run production
+        - run: npm run build
 
 
         - name: Deploy

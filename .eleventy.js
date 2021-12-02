@@ -1,7 +1,6 @@
 // - Add eleventy nav plugin -
 // const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
-const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/my-custom-project/' : '/'
 
 module.exports = function (eleventyConfig) {
 
@@ -9,23 +8,19 @@ module.exports = function (eleventyConfig) {
   //eleventyConfig.addPlugin(pluginNavigation);
 
   // - define css -
-  eleventyConfig.addPassthroughCopy("./src/css/");
-  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addPassthroughCopy("src/css/");
+  eleventyConfig.addWatchTarget("src/css/");
 
   // - define assets -
-  eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("src/assets/images");
 
   // - input/output customization -
   return {
-    pathPrefix: basePath,
+    pathPrefix: "/funding-public-safety/"  // - Append URL with GitHub Pages prefix -
     dir: {
       input: "src",
       output: "docs"
     },
-
-    // - Append URL with GitHub Pages prefix -
-  //  pathPrefix: "/funding-public-safety/"
   };
 
 
