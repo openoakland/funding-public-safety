@@ -93,7 +93,7 @@ ul li.navbar {
 /* HOME-PAGE HERO SECTION STYLES */
 
 .index-hero {
-  background-image: url("/assets/images/FPS-background.png"); /* The image used */
+  background-image: url("assets/images/FPS-background.png"); /* The image used */
   background-color: #013743;
   height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
