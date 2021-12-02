@@ -1,7 +1,7 @@
 // - Add eleventy nav plugin -
 // const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
-const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/my-custom-project/' : '/'
+const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/funding-public-safety/' : '/'
 
 module.exports = function (eleventyConfig) {
 

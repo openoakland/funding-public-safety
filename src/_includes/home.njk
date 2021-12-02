@@ -9,21 +9,21 @@
 </head>
 
 
-  <header>
-  {% include "header.njk" %}
-  </header>
+
 
 
 <body>
 
+  <header>
+  {% include "header.njk" %}
+  </header>
+
   {% include "hero.njk" %}
 
   <div class="container content col-8">
-
     <main>
       {{ content | safe }}
     </main>
-
   </div>
 
   <footer>
