@@ -12,7 +12,6 @@ jobs:
     steps:
         - uses: actions/checkout@v2
 
-
         - name: Setup Node
           uses: actions/setup-node@v1
           with:
@@ -26,4 +25,3 @@ jobs:
           with:
             deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
             publish_dir: ./public
-            publish_branch: main

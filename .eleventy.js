@@ -1,12 +1,9 @@
 module.exports = function (eleventyConfig) {
 
 
-  // - define css -
-  eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addWatchTarget("src/css/");
-
-  // - define assets -
-  eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/css/"); // - define css folder -
+  eleventyConfig.addPassthroughCopy("src/assets/images"); // - define assets folder -
 
   // - input/output customization -
   return {
