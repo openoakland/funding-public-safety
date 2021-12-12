@@ -11,7 +11,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
     <img src="assets/images/FPS-Measure-Z.png" class="class="card-img-top" alt="Thumbnail of the Measure Z ballot text">
     <div class="card-body">
-    <h5 class="card-title"><a class="btn btn-primary" href="/funding-public-safety/about-measure-z" role="button">About Measure Z</a></h5>
+    <h5 class="card-title"><a class="btn btn-primary" href="/about-measure-z" role="button">About Measure Z</a></h5>
     </div>
   </div>
 </div>
@@ -20,7 +20,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
   <img src="assets/images/FPS-thumb-Burke-mural.png" class="class="card-img-top" alt="Mural of a Black woman overlooking an intersection where different Oaklanders congregate">
       <div class="card-body">
-      <h5 class="card-title"><a class="btn btn-primary" href="/funding-public-safety/program-impacts" role="button">Explore Program Impacts</a></h5>
+      <h5 class="card-title"><a class="btn btn-primary" href="/program-impacts" role="button">Explore Program Impacts</a></h5>
       </div>
     </div>
 </div>
@@ -29,7 +29,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
   <img src="assets/images/FPS-thumb-openoak.png" class="class="card-img-top" alt="Blue-tinged photo of several OpenOakland members working together">
       <div class="card-body">
-      <h5 class="card-title"><a class="btn btn-primary" href="/funding-public-safety/get-involved" role="button">Get Involved in FPS</a></h5>
+      <h5 class="card-title"><a class="btn btn-primary" href="/get-involved" role="button">Get Involved in FPS</a></h5>
       </div>
     </div>
 </div>
