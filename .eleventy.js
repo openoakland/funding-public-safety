@@ -9,8 +9,10 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "docs"
+      output: "docs",
+      includes: "src/_includes"
     },
+    pathPrefix: "/funding-public-safety/", // - Append URL with GitHub Pages prefix -
   };
 
 
