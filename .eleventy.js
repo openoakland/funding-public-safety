@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "docs"
     },
+    pathPrefix: "/funding-public-safety/", // - Append URL with GitHub Pages prefix -
   };
 
 
