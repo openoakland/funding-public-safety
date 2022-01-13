@@ -18,7 +18,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
 
 <div class="col-sm-4">
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-  <img src="assets/images/FPS-thumb-Burke-mural.png" class="class="card-img-top" alt="Mural of a Black woman overlooking an intersection where different Oaklanders congregate">
+  <img src="assets/images/FPS-thumb-Burke-mural.png" class="class="card-img-top" alt="Mural by David Burke and McClymonds High School students, depicting Ja’Khi, the princess of knowledge, overlooking a block party where Oaklanders celebrate unity and change.">
       <div class="card-body">
       <h5 class="card-title"><a class="btn btn-primary" href="/program-impacts/" role="button">Explore Program Impacts</a></h5>
       </div>
