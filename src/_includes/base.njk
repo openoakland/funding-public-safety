@@ -8,28 +8,18 @@
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
 
+<body>
+<div class="container">
 
   <header>
-  {% include "header.njk" %}
+    <h1>{{ title }}</h1>
   </header>
 
+  <main>
+    {{ content | safe }}
+  </main>
 
-<body>
-
-  {% include "hero.njk" %}
-
-  <div class="container content col-8">
-
-    <main>
-      {{ content | safe }}
-    </main>
-
-  </div>
-
-  <footer>
-  {% include "footer.njk" %}
-  </footer>
-
+</div>
 </body>
 
 </html>
