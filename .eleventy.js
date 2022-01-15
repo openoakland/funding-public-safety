@@ -2,17 +2,21 @@ module.exports = function (eleventyConfig) {
 
 
   eleventyConfig.addWatchTarget("css");
-  eleventyConfig.addPassthroughCopy("css"); // - define css folder -
-  eleventyConfig.addPassthroughCopy("assets"); // - define assets folder -
+  eleventyConfig.addPassthroughCopy("css"); // Copy css folder to output directory.
+  eleventyConfig.addPassthroughCopy("assets"); // Copy assets folder to output directory.
 
   // - input/output customization -
   return {
+
+    pathPrefix: "/funding-public-safety/", // Append URL with repo prefix for GH Pages.
+
     dir: {
-      input: "src",
-      output: "docs",
-    pathPrefix: "/funding-public-safety/" // - Append URL with GitHub Pages prefix -
+      input: "src", // Tells 11ty to use /src folder
+      output: "docs", // Tells 11ty to build pages into the /docs folder.
     },
+
   };
+
 
 
 };
