@@ -14,45 +14,44 @@ All contributors are expected to adhere to OpenOakland's [Code of Conduct](https
 
 ### Getting started
 
-`*** NOTE: This section has not been tested. If you try this procedure, please open a PR to update the ReadMe to either remove this warning (if it works), or update these instructions to reflect the accurate procedure. Thank you!
-`
-
 These instructions assume you have a beginner-level familiarity with GitHub and the command line.
 
 On your local system:
 
-1. Clone the `funding-public-safety` repo.
+1. Create a fork of the original repo from `https://github.com/openoakland/funding-public-safety`
+2. Clone your fork of the `funding-public-safety` repo to create a local copy of the code.
 
 In Terminal or other command line interface:
 
-2. Navigate to local directory: `cd ~/{file-path}`
-3. Install necessary packages: `npm install`
-4. Build the site: `npm run-script build`
-5. Run the server: `npm run-script start`
+3. Navigate to local directory: `cd ~/{file-path}`
+4. Install necessary packages: `npm install`
+5. Build the site: `npm build`
+6. Run the server: `npm start`
 
 In your web browser:
 
 5. Visit `localhost:8080` to view the site locally. You should now be up and running!
 
-_Running into issues? Reach out in the #project-active-funding-public-safety Slack channel (see [instructions for joining Slack](https://docs.google.com/document/d/1VWZQ_3ehP5j0IOTY0nJClvQPll3ivSkuAdh5YsOhO_U/edit)).
+\_Running into issues? Reach out in the #project-active-funding-public-safety Slack channel (see [instructions for joining Slack](https://docs.google.com/document/d/1VWZQ_3ehP5j0IOTY0nJClvQPll3ivSkuAdh5YsOhO_U/edit)).
 
 ### Working on the site
 
 Assumes you're using Terminal/command line and have completed the `Getting Started` section above...
 
 1. Navigate to your local directory:
-  - `cd ~/{file-path}/funding-public-safety`
+
+- `cd ~/{file-path}/funding-public-safety`
 
 2. Create and check out a new branch based on `main` branch:
-  - `git status` (tells you which branch you're on)
-  - `git checkout main` (checks out the `main` if you're not already there)
-  - `git pull origin main` (pulls latest changes from `main`)
-  - `git checkout -b {new-branch-name}` (creates and checks out a new branch based on `main`; branch name should reflect a concise summary of the general changes being implemented; e.g. `update-about-content` or `feature-polling`)
 
+- `git status` (tells you which branch you're on)
+- `git checkout main` (checks out the `main` if you're not already there)
+- Pull in the latest changes from the `main` (upstream) repo. [See these instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) for how to do this via Github UI or command line.
+- `git checkout -b {new-branch-name}` (creates and checks out a new branch based on `main`; branch name should reflect a concise summary of the general changes being implemented; e.g. `update-about-content` or `feature-polling`)
 
-3. Design/build changes should be made within the `/src` directory using your preferred text editor. Site-wide configuration changes should be made with caution in `package.json` and `eleventy.js` files.
+1. Design/build changes should be made within the `/src` directory using your preferred text editor. Site-wide configuration changes should be made with caution in `package.json` and `eleventy.js` files.
 
-4. When your changes are ready for review, open a pull request in GitHub and request a review from anyone on the team. Please give us about 48 hours to follow up.
+2. When your changes are ready for review, open a pull request in GitHub and request a review from anyone on the team. Please give us about 48 hours to follow up.
 
 ### Site structure and styles
 
@@ -63,7 +62,6 @@ Assumes you're using Terminal/command line and have completed the `Getting Start
   - `key`: Label to use in global nav (if you want the page to appear here)
   - `order`: Position of the page in the global nav menu
 - Our default styling uses [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/). Customizations can be added to `/src/css/style.css`.
-
 
 ## Contact the team
 
