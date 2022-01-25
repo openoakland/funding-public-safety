@@ -2,6 +2,8 @@
 
 Funding Public Safety explores how Oakland spends Measure Z’s approximately $24 million annual budget, so Oaklanders can better understand the City’s approach to public safety and violence prevention. We're a project of [OpenOakland](https://openoakland.org), a volunteer collective that bridges community and technology for a thriving and equitable Oakland.
 
+See the [live site](https://openoakland.github.io/funding-public-safety/) for this project.
+
 ## Technology used
 
 - [Eleventy (11ty)](https://www.11ty.dev/) static site generator
