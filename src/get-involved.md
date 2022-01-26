@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: Get Involved
+assetPath: ../assets/images/OpenOakland-logo-color-1000.png
 eleventyNavigation:
   key: Get Involved
   title: Get Involved

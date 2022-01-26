@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: About Funding Public Safety
+assetPath: ../assets/images/OpenOakland-logo-color-1000.png
 eleventyNavigation:
   key: About FPS
   title: About Funding Public Safety

@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: Program Impacts
+assetPath: ../assets/images/OpenOakland-logo-color-1000.png
 eleventyNavigation:
   key: Program Impacts
   title: Program Impacts
