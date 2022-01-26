@@ -1,7 +1,7 @@
 ---
 title: Funding Public Safety
 layout: home.njk
-assetPath: assets/images/OpenOakland-logo-color-1000.png
+assetPath: assets
 ---
 
 Public safety is a common goal for any community. Yet in Oakland, a diverse city of nearly 500,000 people, public safety inevitably means different things to different people. We believe that appropriate, successful policy can only be developed with accurate, complete information and open, honest discourse.
