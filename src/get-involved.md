@@ -1,5 +1,7 @@
 ---
 layout: page.njk
+title: Get Involved
+assetPath: ../assets/images/OpenOakland-logo-color-1000.png
 eleventyNavigation:
   key: Get Involved
   title: Get Involved
@@ -32,6 +34,7 @@ We’re always looking for input and contributions from Oaklanders, particularly
 - [Help fund OpenOakland’s work](https://openoakland.org/donate).
 
 ## Organizations working on public safety
+
 The following nonprofit organizations work on public safety and policing issues in Oakland:
 
 - The [Coalition for Police Accountability](https://www.coalitionforpoliceaccountability.com/about) advocates for accountability of the Oakland Police Department to the community so that the Oakland Police Department operates with equitable, just, constitutional, transparent policies and practices that reflect the values and engender the trust of the community.
