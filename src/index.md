@@ -36,4 +36,4 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
 
 </div>
 
-*Funding Public Safety* is a project of [OpenOakland](https://openoakland.org), a volunteer collective that bridges community and technology for a thriving and equitable Oakland. We strive to take a participatory approach to uncovering and answering the questions Oaklanders have about these deeply complex issues. [View the code and contribute on GitHub](https://github.com/openoakland/funding-public-safety).
+_Funding Public Safety_ is a project of [OpenOakland](https://openoakland.org), a volunteer collective that bridges community and technology for a thriving and equitable Oakland. We strive to take a participatory approach to uncovering and answering the questions Oaklanders have about these deeply complex issues. [View the code and contribute on GitHub](https://github.com/openoakland/funding-public-safety).
