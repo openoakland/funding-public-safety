@@ -49,6 +49,7 @@ The City has published [11 key annual reports](https://www.oaklandca.gov/documen
 - [2017 report](https://cao-94612.s3.amazonaws.com/documents/MZ_2017-Policing-Eval-Year-1.pdf)
 - [2018 report](https://cao-94612.s3.amazonaws.com/documents/MZ__2018-Policing-Eval-Year-2.pdf)
 - [2019 report](https://cao-94612.s3.amazonaws.com/documents/MZ__2018-Policing-Eval-Year-3.pdf) | [2019 overview presentation](https://cao-94612.s3.amazonaws.com/documents/Presentation-2019-Measure-Z-Year-3-Evaluation-by-Resource-Development-Associates-2.25.20.pdf)
+- [2020 report](http://oakland.legistar.com/gateway.aspx?M=F&ID=ba71653e-66ec-4c13-b349-20f150f1318f.PDF) | [2019-2020 OPD violence analysis](http://oakland.legistar.com/gateway.aspx?M=F&ID=64ad862d-fdef-4c63-a546-e6b22f3a3bc8.PDF)
 
 #### Service program reports
 
