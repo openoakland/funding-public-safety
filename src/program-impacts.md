@@ -49,7 +49,7 @@ The City has published [11 key annual reports](https://www.oaklandca.gov/documen
 - [2017 report](https://cao-94612.s3.amazonaws.com/documents/MZ_2017-Policing-Eval-Year-1.pdf)
 - [2018 report](https://cao-94612.s3.amazonaws.com/documents/MZ__2018-Policing-Eval-Year-2.pdf)
 - [2019 report](https://cao-94612.s3.amazonaws.com/documents/MZ__2018-Policing-Eval-Year-3.pdf) | [2019 overview presentation](https://cao-94612.s3.amazonaws.com/documents/Presentation-2019-Measure-Z-Year-3-Evaluation-by-Resource-Development-Associates-2.25.20.pdf)
-
+- [2020 report](http://oakland.legistar.com/gateway.aspx?M=F&ID=ba71653e-66ec-4c13-b349-20f150f1318f.PDF) | [2019-2020 OPD violence analysis](http://oakland.legistar.com/gateway.aspx?M=F&ID=64ad862d-fdef-4c63-a546-e6b22f3a3bc8.PDF)
 #### Service program reports
 
 The Dept. of Violence Prevention programming is evaluated annually for _agency performance_ and _strategy effectiveness_.
@@ -60,5 +60,7 @@ The Dept. of Violence Prevention programming is evaluated annually for _agency p
 
 #### Other reports
 
-- [2020-2021 DVP Report](https://cao-94612.s3.amazonaws.com/documents/Presentation-2020-Overview-of-DVP-MZ-Funding.pdf)
+- [2021 Overview on Measure Z](http://oakland.legistar.com/gateway.aspx?M=F&ID=291dc6ca-3d12-4a86-96e7-f34beda01e2a.pdf)
+- [2019-2021 DVP/Reimagining Public Safety Taskforce Report](https://cao-94612.s3.amazonaws.com/documents/Presentation-2020-Overview-of-DVP-MZ-Funding.pdf)
+- [2016-2019 Trends in Violence and Violence Prevention Brief](http://oakland.legistar.com/gateway.aspx?M=F&ID=1c1e0070-2132-4846-a63d-881f081f8b31.PDF)
 - List of [additional materials provided](https://www.oaklandca.gov/boards-commissions/public-safety-and-services-violence-prevention-oversight-commission/meetings) during Oversight Commission meetings
