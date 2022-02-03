@@ -26,14 +26,15 @@ Our next phase focuses on the following steps:
 
 We’re grateful to the following contributors and consultants who have informed our work to date, including:
 
-- Julie Edwards
-- Sarah Frei
-- Erin Hancock
-- Paula Hawthorne
-- Beth Hodess
-- Matthew Kury
-- Jess Sand
-- Sydney Thomas
+- Julie E.
+- Sarah F.
+- Erin H.
+- Paula H.
+- Beth H.
+- Matthew K.
+- Adam Mann
+- Jess S.
+- Sydney T.
 
 If you've contributed to FPS and would like to have your name listed here (or removed), please email [fundingpublicsafety@openoakland.org](mailto:fundingpublicsafety@openoakland.org). You may also make the change yourself by opening a pull request on [GitHub](https://github.com/openoakland/funding-public-safety).
 
