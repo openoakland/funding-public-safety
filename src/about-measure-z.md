@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: About Measure Z
-assetPath: ../assets/images/OpenOakland-logo-color-1000.png
+assetPath: ../assets
 eleventyNavigation:
   key: Measure Z
   title: About Measure Z

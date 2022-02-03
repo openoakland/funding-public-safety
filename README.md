@@ -55,6 +55,20 @@ Assumes you're using Terminal/command line and have completed the `Getting Start
 
 2. When your changes are ready for review, open a pull request in GitHub and request a review from anyone on the team. Please give us about 48 hours to follow up.
 
+### Project management
+
+We track all issues in the [Proof of Concept kanban board](https://github.com/openoakland/funding-public-safety/projects/1).
+
+- Select an issue to work on from the "Ready to Work On" column (or add your input to any issue in the "Icebox" column).
+- Assign the issue to yourself and move it to the "In Progress" column.
+  - You can claim an issue by adding yourself in the "Assignees" section
+![Screen Shot 2022-02-03 at 1 23 56 PM](https://user-images.githubusercontent.com/68879246/152431364-03269f34-68e2-4a23-9a27-7af253c768a2.png)
+- Once your PR has been approved and merged, you can close the issue and move it to the "Done" column in the Project kanban.
+
+
+
+
+
 ### Site structure and styles
 
 - Site pages are built in markdown using Nunjucks templating (but Eleventy accepts lots of templating languages so if you have a preference you may use what you're comfortable with).
