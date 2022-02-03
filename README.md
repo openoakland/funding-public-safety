@@ -55,6 +55,15 @@ Assumes you're using Terminal/command line and have completed the `Getting Start
 
 2. When your changes are ready for review, open a pull request in GitHub and request a review from anyone on the team. Please give us about 48 hours to follow up.
 
+### Project board
+
+The project board for Funding Public Safety can be found [here](https://github.com/openoakland/funding-public-safety/projects/1). 
+
+- You can claim an issue by adding yourself in the "Assignees" section
+![Screen Shot 2022-02-03 at 1 23 56 PM](https://user-images.githubusercontent.com/68879246/152431364-03269f34-68e2-4a23-9a27-7af253c768a2.png)
+
+
+
 ### Site structure and styles
 
 - Site pages are built in markdown using Nunjucks templating (but Eleventy accepts lots of templating languages so if you have a preference you may use what you're comfortable with).
