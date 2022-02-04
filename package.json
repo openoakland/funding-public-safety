@@ -28,7 +28,5 @@
   "homepage": "https://github.com/openoakland/funding-public-safety#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "eleventy-navigation-bootstrap": "^0.1.2"
   }
 }
