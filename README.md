@@ -27,7 +27,7 @@ In Terminal or other command line interface:
 
 3. Navigate to local directory: `cd ~/{file-path}`
 4. Install necessary packages: `npm install`
-5. Build the site: `npm build`
+5. Build the site: `npm run-script build`
 6. Run the server: `npm start`
 
 In your web browser:
@@ -62,12 +62,8 @@ We track all issues in the [Proof of Concept kanban board](https://github.com/op
 - Select an issue to work on from the "Ready to Work On" column (or add your input to any issue in the "Icebox" column).
 - Assign the issue to yourself and move it to the "In Progress" column.
   - You can claim an issue by adding yourself in the "Assignees" section
-![Screen Shot 2022-02-03 at 1 23 56 PM](https://user-images.githubusercontent.com/68879246/152431364-03269f34-68e2-4a23-9a27-7af253c768a2.png)
+    ![Screen Shot 2022-02-03 at 1 23 56 PM](https://user-images.githubusercontent.com/68879246/152431364-03269f34-68e2-4a23-9a27-7af253c768a2.png)
 - Once your PR has been approved and merged, you can close the issue and move it to the "Done" column in the Project kanban.
-
-
-
-
 
 ### Site structure and styles
 
