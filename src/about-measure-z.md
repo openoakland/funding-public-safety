@@ -41,7 +41,7 @@ Measure Z funds are distributed in the following ways:
 
 ### How much money is spent
 
-{% include dataviz-strategy-spending.njk %}
+{% include "dataviz-strategy-spending.njk" %}
 
 ### Where the money comes from
 
