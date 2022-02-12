@@ -15,7 +15,7 @@ jobs:
         - name: Setup Node
           uses: actions/setup-node@v1
           with:
-            node-version: '10.x'
+            node-version: '12.x'
 
         - run: npm install
         - run: npm run-script build
@@ -23,6 +23,6 @@ jobs:
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3
           with:
-            deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
+            deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
             publish_dir: docs
             publish_branch: gh-pages
