@@ -2,7 +2,7 @@
   "name": "funding-public-safety",
   "version": "1.0.0",
   "description": "Helping Oaklanders understand the impacts of public safety funding. A project of OpenOakland.",
-  "main": "index.js"
+  "main": "index.js",
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
