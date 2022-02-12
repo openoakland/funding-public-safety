@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Helping Oaklanders understand the impacts of public safety funding. A project of OpenOakland.",
   "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
@@ -27,8 +31,6 @@
   },
   "homepage": "https://github.com/openoakland/funding-public-safety#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "eleventy-navigation-bootstrap": "^0.1.2"
+    "@11ty/eleventy": "^1.0.0"
   }
 }
