@@ -10,7 +10,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
 
 <div class="col-sm-4">
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-    <img src="assets/images/FPS-Measure-Z.png" class="class="card-img-top" alt="Thumbnail of the Measure Z ballot text">
+    <img src="assets/images/FPS-Measure-Z.png" class="card-img-top" alt="Thumbnail of the Measure Z ballot text">
     <div class="card-body">
     <h5 class="card-title"><a class="btn btn-primary" href="{{ '/about-measure-z' | url }}" role="button">About Measure Z</a></h5>
     </div>
@@ -19,7 +19,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
 
 <div class="col-sm-4">
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-  <img src="assets/images/FPS-thumb-Burke-mural.png" class="class="card-img-top" alt="Mural by David Burke and McClymonds High School students, depicting Ja’Khi, the princess of knowledge, overlooking a block party where Oaklanders celebrate unity and change.">
+  <img src="assets/images/FPS-thumb-Burke-mural.png" class="card-img-top" alt="Mural by David Burke and McClymonds High School students, depicting Ja’Khi, the princess of knowledge, overlooking a block party where Oaklanders celebrate unity and change.">
       <div class="card-body">
       <h5 class="card-title"><a class="btn btn-primary" href="{{ '/program-impacts/' | url }}" role="button">Explore Program Impacts</a></h5>
       </div>
@@ -28,7 +28,7 @@ Public safety is a common goal for any community. Yet in Oakland, a diverse city
 
 <div class="col-sm-4">
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-  <img src="assets/images/FPS-thumb-openoak.png" class="class="card-img-top" alt="Blue-tinged photo of several OpenOakland members working together">
+  <img src="assets/images/FPS-thumb-openoak.png" class="card-img-top" alt="Blue-tinged photo of several OpenOakland members working together">
       <div class="card-body">
       <h5 class="card-title"><a class="btn btn-primary" href="{{ '/get-involved' | url }}" role="button">Get Involved in FPS</a></h5>
       </div>
