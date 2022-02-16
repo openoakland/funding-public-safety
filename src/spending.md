@@ -9,12 +9,9 @@ eleventyNavigation:
 ---
 
 
-Measure Z funds are distributed across several city departments:
+Measure Z funds are distributed across several city departments. Three percent of the funds are held to audit and evaluate the programs funded by the measure, including management of the Oversight Commission. Another $2 million goes to the Oakland Fire Department each year. Of the remaining funds, 60% goes to the Oakland Police Department for the staffing of Community Resource Officers (CROs) and Community Resources Teams (CRTs). The remaining 40% goes to the Department of Violence Prevention (DVP).
 
-- 3% to audit and evaluate the programs funded by the measure, including management of the Oversight Commission
-- $2 million to the Oakland Fire Department
-- 60% of the remaining funds to the Oakland Police Department for the staffing of specific roles and programs
-- 40% of the remaining funds to be spent on community-focused violence prevention and intervention services and strategies
+{% include "dataviz-agency-spending.njk" %}
 
 ### Money spent on Measure Z strategies
 
