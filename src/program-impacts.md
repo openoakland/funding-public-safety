@@ -1,7 +1,6 @@
 ---
 layout: page.njk
 title: Program Impacts
-assetPath: ../assets
 eleventyNavigation:
   key: Program Impacts
   title: Program Impacts

@@ -1,7 +1,6 @@
 ---
 layout: page.njk
 title: Get Involved
-assetPath: ../assets
 eleventyNavigation:
   key: Get Involved
   title: Get Involved
