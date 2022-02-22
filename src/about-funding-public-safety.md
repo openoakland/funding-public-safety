@@ -1,7 +1,6 @@
 ---
 layout: page.njk
 title: About Funding Public Safety
-assetPath: ../assets
 eleventyNavigation:
   key: About FPS
   title: About Funding Public Safety

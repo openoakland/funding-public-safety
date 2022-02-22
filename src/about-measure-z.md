@@ -1,7 +1,6 @@
 ---
 layout: page.njk
 title: About Measure Z
-assetPath: ../assets
 eleventyNavigation:
   key: Measure Z
   title: About Measure Z
