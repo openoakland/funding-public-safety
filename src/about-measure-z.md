@@ -2,7 +2,7 @@
 layout: page.njk
 title: About Measure Z
 eleventyNavigation:
-  key: Measure Z
+  key: About Measure Z
   title: About Measure Z
   order: 1
 ---
@@ -29,19 +29,6 @@ There are three main ways Measure Z attempts to achieve these goals:
 <b>One controversial component of Measure Z is its requirement that the City budget for and staff at least 678 police officers.</b> The measure specifically prohibits the city from laying off any officers if it would bring OPD under this minimum. If the City fails to do this, the amount of money collected to fund these programs is reduced based on how long the police staff size remains under the minimum. If it fails to budget for this minimum at all, no money at all may be collected. There are some exceptions to this.
 </div>
 
-## How Measure Z distributes money
-
-Measure Z funds are distributed in the following ways:
-
-- 3% to audit and evaluate the programs funded by the measure, including management of the Oversight Commission
-- $2 million to the Oakland Fire Department
-- 60% of the remaining funds to the Oakland Police Department for the staffing of specific roles and programs
-- 40% of the remaining funds to be spent on community-focused violence prevention and intervention services and strategies
-
-### How much money is spent
-
-{% include "dataviz-strategy-allocation.njk" %}
-
 
 ### Where the money comes from
 
@@ -52,6 +39,12 @@ Measure Z collects money through two taxes: a parcel tax and a parking tax. Oakl
 - Non-residential: $51.09 per unit
 
 Additionally, parking lot operators are charged an 8.5% tax on the rental of each parking space. Both of these taxes existed prior to Measure Z; the measure simply continued these taxes and further defined the use of the money.
+
+<a class="btn btn-primary" href="{{ '/spending' | url }}" role="button">View spending breakdown</a>
+
+## Full text of Measure Z
+
+[Download the full text](https://cao-94612.s3.amazonaws.com/documents/Measure-Z-Reso-85149.pdf) (PDF).
 
 ## Editorial coverage
 
@@ -65,7 +58,3 @@ Public safety has increasingly been covered in local and national news. Coverage
   _East Bay Citizen_ article about the proposed creation of the Dept. of Violence Prevention, which would eventually absorb many of the programs funded by Measure Z.
 - **[Yes on Measure Z: Please Read](https://mgodems.org/newsletters/yes-on-measure-z-please-read/)** (2014)  
   Op-ed from _Neighbors for a Safer Oakland_, the Measure Z campaign committee.
-
-## Full text of Measure Z
-
-[Download the full text](https://cao-94612.s3.amazonaws.com/documents/Measure-Z-Reso-85149.pdf) (PDF).
